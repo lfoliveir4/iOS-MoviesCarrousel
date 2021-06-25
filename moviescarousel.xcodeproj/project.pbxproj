@@ -11,6 +11,8 @@
 		F2E6F8C12685627000C841AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6F8C02685627000C841AA /* ContentView.swift */; };
 		F2E6F8C32685627100C841AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E6F8C22685627100C841AA /* Assets.xcassets */; };
 		F2E6F8C62685627100C841AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E6F8C52685627100C841AA /* Preview Assets.xcassets */; };
+		F2E6F8CE268570FA00C841AA /* ImageCaroussel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6F8CD268570FA00C841AA /* ImageCaroussel.swift */; };
+		F2E6F8D02685763E00C841AA /* GetScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6F8CF2685763E00C841AA /* GetScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F2E6F8C22685627100C841AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E6F8C52685627100C841AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2E6F8C72685627100C841AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E6F8CD268570FA00C841AA /* ImageCaroussel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaroussel.swift; sourceTree = "<group>"; };
+		F2E6F8CF2685763E00C841AA /* GetScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				F2E6F8BE2685627000C841AA /* moviescarouselApp.swift */,
 				F2E6F8C02685627000C841AA /* ContentView.swift */,
+				F2E6F8CF2685763E00C841AA /* GetScale.swift */,
+				F2E6F8CD268570FA00C841AA /* ImageCaroussel.swift */,
 				F2E6F8C22685627100C841AA /* Assets.xcassets */,
 				F2E6F8C72685627100C841AA /* Info.plist */,
 				F2E6F8C42685627100C841AA /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E6F8CE268570FA00C841AA /* ImageCaroussel.swift in Sources */,
+				F2E6F8D02685763E00C841AA /* GetScale.swift in Sources */,
 				F2E6F8C12685627000C841AA /* ContentView.swift in Sources */,
 				F2E6F8BF2685627000C841AA /* moviescarouselApp.swift in Sources */,
 			);
